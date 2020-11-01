@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box {
+    padding: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 13px -6px rgba(67,84,128,1);
+    width: 140px;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 20px;
+}
+
+div[class^="line"] {
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FD5353;
+}
+.line-o {opacity: 0.2;}
+
+.length-l {width: 100%;}
